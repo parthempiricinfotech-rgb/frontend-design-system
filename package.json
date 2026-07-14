@@ -1,0 +1,21 @@
+{
+  "name": "frontend-design-system",
+  "version": "0.7.0-mock-audit",
+  "private": true,
+  "description": "Mock frontend design system fixture for DSSYNC design drift audit runs.",
+  "type": "module",
+  "scripts": {
+    "storybook:static": "node scripts/mock-storybook-build.js",
+    "lint:audit-fixtures": "node scripts/validate-audit-fixtures.js"
+  },
+  "dependencies": {
+    "@storybook/react-vite": "9.0.12",
+    "lucide-react": "0.468.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "typescript": "5.5.4",
+    "vite": "6.0.0"
+  }
+}

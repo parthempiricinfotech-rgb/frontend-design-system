@@ -1,0 +1,13 @@
+Component Name,Component Category,Design Owner,Engineering Owner,Jira Assignee,Teams Contact,Repo Path,Figma Component Status,Notes
+Button,actions,Asha Rao,Rohan Mehta,rohan.mehta,@Rohan Mehta,src/components/Button,Published,Focus ring exception documented
+Input,forms,Nina Patel,Dev Shah,dev.shah,@Dev Shah,src/components/Input,Published,Error border drift expected
+Card,layout,Asha Rao,Kiran Iyer,kiran.iyer,@Kiran Iyer,src/components/Card,Published,
+Badge,status,Nina Patel,Rohan Mehta,rohan.mehta,@Rohan Mehta,src/components/Badge,Published,Compact padding drift expected
+Avatar,data-display,Meera Joshi,Kiran Iyer,kiran.iyer,@Kiran Iyer,src/components/Avatar,Published,
+Toggle,forms,Nina Patel,Dev Shah,dev.shah,@Dev Shah,src/components/Toggle,Published,
+Tooltip,overlays,Meera Joshi,Anika Singh,anika.singh,@Anika Singh,src/components/Tooltip,Published,Reduced motion exception documented
+Modal,overlays,Asha Rao,Anika Singh,anika.singh,@Anika Singh,src/components/Modal,Published,Dark overlay drift expected
+Tabs,navigation,Meera Joshi,Kiran Iyer,kiran.iyer,@Kiran Iyer,src/components/Tabs,Published,
+Select,forms,Nina Patel,Dev Shah,dev.shah,@Dev Shah,src/components/Select,Published,
+LegacyBanner,deprecated,Asha Rao,Rohan Mehta,rohan.mehta,@Rohan Mehta,src/components/LegacyBanner,Not in Figma,Deprecated code-only migration exception
+Toast,feedback,Meera Joshi,,,,,Published,Missing engineering owner and implementation

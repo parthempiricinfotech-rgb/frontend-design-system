@@ -1,0 +1,10 @@
+{
+  "storybookVersion": "static-main-2026-07-15T09:00:00+05:30",
+  "builtFromBranch": "main",
+  "builtAtIST": "2026-07-15 09:00",
+  "notes": [
+    "Static export includes all implemented components.",
+    "Toast intentionally absent because it is not implemented.",
+    "LegacyBanner present because it is deprecated but still shipped."
+  ]
+}

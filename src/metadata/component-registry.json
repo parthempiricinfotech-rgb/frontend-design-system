@@ -1,0 +1,120 @@
+{
+  "storybookVersion": "static-main-2026-07-15T09:00:00+05:30",
+  "implementationCommit": "main-mock-seeded-after-init",
+  "figmaLibraryVersion": "Core UI Components v2026.07.15",
+  "components": [
+    {
+      "name": "Button",
+      "category": "actions",
+      "status": "implemented",
+      "source": "src/components/Button/Button.tsx",
+      "docs": "src/components/Button/Button.docs.md",
+      "stories": ["Primary", "Secondary", "Danger", "Loading", "Disabled"],
+      "variants": {"intent": ["primary", "secondary", "danger"], "size": ["sm", "md", "lg"], "state": ["default", "hover", "pressed", "focus", "disabled", "loading"]},
+      "documentedExceptions": ["Focus ring is 3px in code for Windows high contrast accessibility requirement."]
+    },
+    {
+      "name": "Input",
+      "category": "forms",
+      "status": "implemented",
+      "source": "src/components/Input/Input.tsx",
+      "docs": "src/components/Input/Input.docs.md",
+      "stories": ["Default", "Disabled", "Error", "Success", "WithHint"],
+      "variants": {"size": ["sm", "md"], "state": ["default", "focus", "disabled", "error", "success"]},
+      "knownAuditSeed": "Potential drift: error border token in code is danger.600 but design spec expects danger.500."
+    },
+    {
+      "name": "Card",
+      "category": "layout",
+      "status": "implemented",
+      "source": "src/components/Card/Card.tsx",
+      "docs": "src/components/Card/Card.docs.md",
+      "stories": ["Default", "Interactive", "Selected", "Dark"],
+      "variants": {"elevation": ["none", "raised"], "interactive": [false, true]}
+    },
+    {
+      "name": "Badge",
+      "category": "status",
+      "status": "implemented",
+      "source": "src/components/Badge/Badge.tsx",
+      "docs": "src/components/Badge/Badge.docs.md",
+      "stories": ["Neutral", "Success", "Warning", "Danger", "Compact"],
+      "variants": {"tone": ["neutral", "success", "warning", "danger"], "size": ["compact", "default"]},
+      "knownAuditSeed": "Potential drift: compact horizontal padding is 6px in code and 8px in design."
+    },
+    {
+      "name": "Avatar",
+      "category": "data-display",
+      "status": "implemented",
+      "source": "src/components/Avatar/Avatar.tsx",
+      "docs": "src/components/Avatar/Avatar.docs.md",
+      "stories": ["Image", "Initials", "Fallback", "Group"],
+      "variants": {"size": ["sm", "md", "lg"], "shape": ["circle", "square"]}
+    },
+    {
+      "name": "Toggle",
+      "category": "forms",
+      "status": "implemented",
+      "source": "src/components/Toggle/Toggle.tsx",
+      "docs": "src/components/Toggle/Toggle.docs.md",
+      "stories": ["Unchecked", "Checked", "Disabled", "Focus"],
+      "variants": {"checked": [false, true], "state": ["default", "focus", "disabled"]}
+    },
+    {
+      "name": "Tooltip",
+      "category": "overlays",
+      "status": "implemented",
+      "source": "src/components/Tooltip/Tooltip.tsx",
+      "docs": "src/components/Tooltip/Tooltip.docs.md",
+      "stories": ["Top", "Right", "Bottom", "Left", "ReducedMotion"],
+      "variants": {"placement": ["top", "right", "bottom", "left"]},
+      "documentedExceptions": ["Transition duration becomes 0ms when prefers-reduced-motion is enabled."]
+    },
+    {
+      "name": "Modal",
+      "category": "overlays",
+      "status": "implemented",
+      "source": "src/components/Modal/Modal.tsx",
+      "docs": "src/components/Modal/Modal.docs.md",
+      "stories": ["Default", "Scrollable", "Destructive", "Dark"],
+      "variants": {"size": ["sm", "md", "lg"], "tone": ["default", "destructive"]},
+      "knownAuditSeed": "Potential drift: dark-mode overlay opacity differs from design."
+    },
+    {
+      "name": "Tabs",
+      "category": "navigation",
+      "status": "implemented",
+      "source": "src/components/Tabs/Tabs.tsx",
+      "docs": "src/components/Tabs/Tabs.docs.md",
+      "stories": ["Default", "Scrollable", "KeyboardNavigation"],
+      "variants": {"orientation": ["horizontal"], "state": ["default", "focus", "selected", "disabled"]}
+    },
+    {
+      "name": "Select",
+      "category": "forms",
+      "status": "implemented",
+      "source": "src/components/Select/Select.tsx",
+      "docs": "src/components/Select/Select.docs.md",
+      "stories": ["Closed", "Open", "Disabled", "Error", "Empty"],
+      "variants": {"size": ["sm", "md"], "state": ["default", "open", "disabled", "error", "empty"]}
+    },
+    {
+      "name": "LegacyBanner",
+      "category": "deprecated",
+      "status": "deprecated-code-only",
+      "source": "src/components/LegacyBanner/LegacyBanner.tsx",
+      "docs": "src/components/LegacyBanner/LegacyBanner.docs.md",
+      "stories": ["Deprecated"],
+      "documentedExceptions": ["Implementation intentionally remains for migration until 2026-08-31."]
+    },
+    {
+      "name": "Toast",
+      "category": "feedback",
+      "status": "figma-only",
+      "source": null,
+      "docs": "Figma component notes",
+      "stories": [],
+      "knownAuditSeed": "Published in Figma, no implementation yet."
+    }
+  ]
+}

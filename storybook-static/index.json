@@ -1,0 +1,16 @@
+{
+  "v": 5,
+  "entries": {
+    "actions-button--primary": {"type": "story", "title": "Actions/Button", "name": "Primary", "importPath": "../src/components/Button/Button.stories.tsx"},
+    "forms-input--error": {"type": "story", "title": "Forms/Input", "name": "Error", "importPath": "../src/components/Input/Input.stories.tsx"},
+    "layout-card--interactive": {"type": "story", "title": "Layout/Card", "name": "Interactive", "importPath": "../src/components/Card/Card.stories.tsx"},
+    "status-badge--compact": {"type": "story", "title": "Status/Badge", "name": "Compact", "importPath": "../src/components/Badge/Badge.stories.tsx"},
+    "data-display-avatar--initials": {"type": "story", "title": "Data Display/Avatar", "name": "Initials", "importPath": "../src/components/Avatar/Avatar.stories.tsx"},
+    "forms-toggle--checked": {"type": "story", "title": "Forms/Toggle", "name": "Checked", "importPath": "../src/components/Toggle/Toggle.stories.tsx"},
+    "overlays-tooltip--reduced-motion": {"type": "story", "title": "Overlays/Tooltip", "name": "ReducedMotion", "importPath": "../src/components/Tooltip/Tooltip.stories.tsx"},
+    "overlays-modal--dark": {"type": "story", "title": "Overlays/Modal", "name": "Dark", "importPath": "../src/components/Modal/Modal.stories.tsx"},
+    "navigation-tabs--keyboard-navigation": {"type": "story", "title": "Navigation/Tabs", "name": "KeyboardNavigation", "importPath": "../src/components/Tabs/Tabs.stories.tsx"},
+    "forms-select--error": {"type": "story", "title": "Forms/Select", "name": "Error", "importPath": "../src/components/Select/Select.stories.tsx"},
+    "deprecated-legacybanner--deprecated": {"type": "story", "title": "Deprecated/LegacyBanner", "name": "Deprecated", "importPath": "../src/components/LegacyBanner/LegacyBanner.stories.tsx"}
+  }
+}
