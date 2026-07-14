@@ -5,6 +5,7 @@ Mock repository for a design drift audit run. This repo intentionally contains a
 ## Audit Resources
 
 - Figma library: `Core UI Components` (`https://www.figma.com/design/j5gMJWE3Un9HnJhdUbTjW2`)
+- GitHub repository: `https://github.com/parthempiricinfotech-rgb/frontend-design-system`
 - Storybook static export: `storybook-static/`, built from `main` at `15 Jul 2026 09:00 IST`
 - Design tokens: `src/tokens/tokens.css` and `src/tokens/tokens.json`
 - Component metadata: `src/metadata/component-registry.json`

@@ -6,6 +6,8 @@ Created for the design drift audit prompt.
 
 - Git repository: `C:\Users\Empiric\Desktop\frontend-design-system`
 - Repository name: `frontend-design-system`
+- GitHub repository: `https://github.com/parthempiricinfotech-rgb/frontend-design-system`
+- GitHub full name: `parthempiricinfotech-rgb/frontend-design-system`
 - Figma file: `Core UI Components`
 - Figma URL: `https://www.figma.com/design/j5gMJWE3Un9HnJhdUbTjW2`
 - Figma library version label: `Core UI Components v2026.07.15`

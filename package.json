@@ -3,6 +3,10 @@
   "version": "0.7.0-mock-audit",
   "private": true,
   "description": "Mock frontend design system fixture for DSSYNC design drift audit runs.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parthempiricinfotech-rgb/frontend-design-system.git"
+  },
   "type": "module",
   "scripts": {
     "storybook:static": "node scripts/mock-storybook-build.js",
