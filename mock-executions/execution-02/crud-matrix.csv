@@ -1,0 +1,11 @@
+Operation,Target,Fixture Evidence,Expected Handling
+Create,Jira issue,Input error border uses danger.600 while Figma expects danger.500,Create one DSSYNC clarification or implementation issue assigned to Dev Shah
+Create,Jira issue,Badge compact padding is 6px in code while Figma expects 8px,Create one DSSYNC implementation issue assigned to Rohan Mehta
+Create,Jira issue,Modal dark overlay resolves to 72 percent while Figma target is 64 percent,Create one DSSYNC implementation issue assigned to Anika Singh
+Read,Figma library,Core UI Components has 11 component sets including Toast,Read component descriptions and variants before deciding drift
+Read,Storybook static export,storybook-static/index.json has 11 story entries for implemented/deprecated components,Use Storybook with code and docs as combined implementation evidence
+Update,Google Sheet Component Audit,One row per audited component required,Update existing row if present; create row only if absent
+Update,Component Ownership Matrix,Toast has no engineering owner,Record missing ownership in audit row and use default Jira assignee
+Delete,Duplicate finding consolidation,Multiple visual symptoms may share one root cause,Do not create duplicate Jira issues for the same root cause
+Delete,Duplicate spreadsheet rows,Execution can be safely rerun,Remove or avoid duplicate component audit rows
+

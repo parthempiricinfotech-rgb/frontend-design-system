@@ -28,6 +28,11 @@ Created for the design drift audit prompt.
 - Code-only deprecated component: LegacyBanner.
 - Missing ownership case: Toast engineering owner is blank in the ownership matrix.
 
+## Additional Execution Packs
+
+- Execution 02 CRUD pack: `mock-executions/execution-02`
+- Execution 02 purpose: run one more audit pass that exercises create, read, update, and duplicate-consolidation/delete behavior without renaming the canonical resources.
+
 ## Figma Account Constraint
 
 The connected Figma plan is Starter, so the mock library is organized into three pages: `Cover`, `Foundations`, and `Components`. Dark-mode evidence is represented through component variants and documentation notes rather than multi-mode Figma variables.
