@@ -32,6 +32,8 @@ Created for the design drift audit prompt.
 
 - Execution 02 CRUD pack: `mock-executions/execution-02`
 - Execution 02 purpose: run one more audit pass that exercises create, read, update, and duplicate-consolidation/delete behavior without renaming the canonical resources.
+- Execution 03 CRUD pack: `mock-executions/execution-03`
+- Execution 03 purpose: run another idempotency-focused audit pass against the already-populated destinations.
 
 ## Figma Account Constraint
 

@@ -1,0 +1,8 @@
+System,Role,Create,Read,Update,Delete,Notes
+GitHub,source,durable execution-03 files,fetch remote files,temporary canary update,temporary canary delete,Full CRUD supported
+Google Sheets,destination,temporary CRUD Canary tab,read A1:B2,update state cell,delete temporary tab,Full reversible CRUD supported
+Figma,source,temporary node if rate limit allows,inspect node,update node text,delete node,May be blocked by Starter plan MCP limit
+Jira,destination,not used for canary,verify DSSYN project/issues,not used for canary,not available safely,Do not pollute real audit issues
+Teams,destination,not used for canary,verify TEST channel/messages,not available safely,not available safely,Do not post undeletable canary messages
+Storybook,source,not applicable,read static export,not applicable,not applicable,Generated source artifact
+
