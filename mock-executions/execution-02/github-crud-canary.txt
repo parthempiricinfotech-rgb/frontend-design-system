@@ -1,0 +1,3 @@
+state=create
+execution=02
+purpose=temporary GitHub CRUD verification canary
