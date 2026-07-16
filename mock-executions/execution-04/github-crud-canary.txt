@@ -1,3 +1,4 @@
-state=create
+state=update
 execution=04
 purpose=temporary GitHub CRUD verification canary
+updated_at_ist=2026-07-16
